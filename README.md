@@ -28,7 +28,7 @@
   <a href="https://github.com/Vaince-Talal/Movie_Recommender">
   </a>
 
-  <h3 align="center">Remember-Bot
+  <h3 align="center">Movie_Recommender
 
   <p align="center">
     Find your favourite Movie!
@@ -87,10 +87,7 @@ Features:
 
 
 * Python3
-* Discord.py
-* SQLite3
-* Heroku
-* GIT
+* BeautifulSoup
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -100,18 +97,17 @@ Features:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-In order to get started, Discord is a hard requirement.
+In order to get started, Python is a hard requirement
 
 ### Prerequisites
 
-* Discord Desktop
+* Python
 
 ### Installation
 
-1. Copy and Paste the following URL to your browser 
-  https://discord.com/api/oauth2/authorize?client_id=1002062299642728539&permissions=1641546217654&scope=bot
-2. Select the desired Server
-3. Enjoy!
+1. Download the Movie Recommender onto your personal device
+2. Run the setup.py in the terminal
+3. The Script should now be runnable
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,11 +116,26 @@ In order to get started, Discord is a hard requirement.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-  - $help - Displays all the possible commands
-  - $create table NAME - creates a table with a NAME corresponding to the category
-  - $add WORD TABLE_NAME - adds a WORD for the bot to watch for and adds it to TABLE_NAME
-  - $print all cats in server - prints all Categories in the server
-  - $print cat TABLE_NAME - prints the corresponding category
+Enter the Year: 2022
+Enter your desired genre: horror
+1. Barbarian
+https://www.imdb.com//title/tt15791034/
+Genre: 
+Horror, Thriller            
+
+Description: 
+A woman staying at an Airbnb discovers that the house she has rented is not what it seems.
+
+...
+50. Moloch
+https://www.imdb.com//title/tt14412446/
+Genre: 
+Horror            
+
+Description: 
+Betriek lives at the edge of a peat bog in the North of the Netherlands. When she and her family are attacked by a random stranger one night, Betriek sets out to find an explanation.
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -134,10 +145,9 @@ In order to get started, Discord is a hard requirement.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Remembering Feautures
-- [x] Upload to Heroku
-- [ ] Create Expletives Categories
-    - [ ] Ban Users after a certain amount of Explict Words
+- [x] Create the Recommender script
+- [ ] Scrape letmewatch website to find the movie links
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +178,7 @@ Don't forget to give the project a star! Thanks again!
 
 Talal Vaince - talal.a.vaince@gmail.com
 
-Project Link: [https://github.com/Vaince-Talal/Remember-Bot]
+Project Link: [https://github.com/Vaince-Talal/Movie_Recommender]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
